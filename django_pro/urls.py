@@ -7,6 +7,7 @@ admin.autodiscover()
 # Uncomment the next two lines to enable the admin:
 
 urlpatterns = patterns('',
+	(r'topics/', 'topics.views.index'),
     # Example:
     # (r'^django_pro/', include('django_pro.foo.urls')),
 
